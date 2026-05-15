@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.local
+*.db
+
+# contracts
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+contracts/coverage/
+contracts/deployments/31337.json
+
+# backend
+backend/.venv/
+__pycache__/
+.pytest_cache/
